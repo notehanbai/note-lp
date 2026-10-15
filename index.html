@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20代前半の1年で40人と会った男の、会話の型</title>
+<meta name="description" content="マッチングアプリで「いいね止まり」を卒業したい20代男性へ。20代前半に出会い系で1年・約40人と会った42歳既婚の実体験を、今のアプリで使える形にまとめたnote有料記事2本。">
+<meta property="og:title" content="20代前半の1年で40人と会った男の、会話の型">
+<meta property="og:description" content="いいね止まり・デート止まりを卒業するための実体験ノウハウ(note有料記事2本)">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#12141c; --bg2:#1a1d28; --card:#212534; --line:#323850;
+  --text:#ecebe6; --sub:#a9adbd; --accent:#ff8a5c; --accent2:#ffc27a; --ok:#7fd6b0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:"Hiragino Sans","Yu Gothic UI","Meiryo",sans-serif;line-height:1.9;font-size:16px;-webkit-text-size-adjust:100%}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+section{padding:72px 0;border-top:1px solid var(--line)}
+h1,h2,h3{line-height:1.5;font-weight:700}
+h2{font-size:clamp(22px,5vw,30px);margin-bottom:28px}
+h2 small{display:block;font-size:12px;letter-spacing:.2em;color:var(--accent);margin-bottom:8px;font-weight:700}
+p+p{margin-top:1.1em}
+.sub{color:var(--sub)}
+
+/* header */
+header{position:sticky;top:0;z-index:10;background:rgba(18,20,28,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:54px}
+header .logo{font-size:14px;font-weight:700;letter-spacing:.05em;text-decoration:none}
+header nav a{font-size:13px;color:var(--sub);text-decoration:none;margin-left:18px}
+@media(max-width:520px){header nav a:not(.cta-mini){display:none}}
+.cta-mini{background:var(--accent);color:#1b1006!important;padding:6px 14px;border-radius:99px;font-weight:700}
+
+/* hero */
+.hero{padding:88px 0 72px;border-top:none;background:
+  radial-gradient(600px 300px at 85% 0%,rgba(255,138,92,.18),transparent 70%),var(--bg)}
+.eyebrow{display:inline-block;font-size:12px;border:1px solid var(--accent);color:var(--accent);padding:3px 12px;border-radius:99px;margin-bottom:22px;letter-spacing:.08em}
+.hero h1{font-size:clamp(28px,7vw,46px);letter-spacing:.01em;margin-bottom:22px}
+.hero h1 em{font-style:normal;color:var(--accent2)}
+.hero p.lead{color:var(--sub);font-size:17px;max-width:34em}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:15px 26px;border-radius:10px;font-size:15px;text-align:center}
+.btn.primary{background:var(--accent);color:#1b1006}
+.btn.ghost{border:1px solid var(--line);color:var(--text)}
+.btn:hover{filter:brightness(1.1)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:34px;font-size:13px;color:var(--sub)}
+.facts span::before{content:"✓ ";color:var(--ok)}
+
+/* pain list */
+.checks{list-style:none;display:grid;gap:12px}
+.checks li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px 16px 48px;position:relative}
+.checks li::before{content:"";position:absolute;left:18px;top:50%;width:14px;height:14px;margin-top:-7px;border:2px solid var(--accent);border-radius:3px}
+
+/* story */
+.story{background:var(--bg2)}
+.story blockquote{border-left:3px solid var(--accent);padding:4px 0 4px 20px;margin:26px 0;color:var(--accent2);font-size:18px}
+.honest{background:var(--card);border:1px dashed var(--accent);border-radius:12px;padding:22px 24px;margin-top:28px;font-size:15px}
+.honest b{color:var(--accent2)}
+
+/* products */
+.products{display:grid;gap:26px}
+.product{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px 26px}
+.product .no{font-size:12px;letter-spacing:.2em;color:var(--accent);font-weight:700}
+.product h3{font-size:clamp(19px,4.5vw,24px);margin:8px 0 14px}
+.product .target{font-size:14px;color:var(--sub);margin-bottom:16px}
+.product ul{list-style:none;margin:16px 0 24px;display:grid;gap:8px;font-size:15px}
+.product ul li{padding-left:22px;position:relative}
+.product ul li::before{content:"▶";position:absolute;left:0;color:var(--accent);font-size:11px;top:5px}
+.price{display:flex;align-items:baseline;gap:8px;margin-bottom:16px}
+.price strong{font-size:34px;color:var(--accent2)}
+.price span{font-size:13px;color:var(--sub)}
+.tag{display:inline-block;font-size:11px;background:#3a2530;color:#ff9fb0;border-radius:4px;padding:2px 8px;margin-left:8px;vertical-align:middle;letter-spacing:.05em}
+.product .btn{width:100%}
+
+/* steps */
+.steps{list-style:none;counter-reset:s;display:grid;gap:14px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px 16px 62px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:18px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:var(--accent);color:#1b1006;font-weight:700;display:grid;place-items:center}
+.steps li b{display:block}
+
+/* author */
+.author{display:grid;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 26px}
+.author dl{display:grid;grid-template-columns:7em 1fr;gap:8px 12px;font-size:15px}
+.author dt{color:var(--sub)}
+
+/* faq */
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;padding:0 20px}
+summary{cursor:pointer;padding:16px 0;font-weight:700;list-style:none;position:relative;padding-right:28px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:14px;color:var(--accent);font-size:20px}
+details[open] summary::after{content:"−"}
+details p{padding-bottom:18px;color:var(--sub);font-size:15px}
+
+/* final */
+.final{text-align:center;background:radial-gradient(500px 260px at 50% 100%,rgba(255,138,92,.16),transparent 70%),var(--bg)}
+.final .btns{justify-content:center}
+
+/* photos */
+.hero .wrap{display:grid;gap:36px;align-items:center}
+.hero .wrap>*,.story-grid>*{min-width:0}
+.hero-photo{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;max-height:560px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(18,20,28,.75))}
+.hero-photo figcaption{position:absolute;left:18px;bottom:14px;z-index:1;font-size:12px;letter-spacing:.15em;color:var(--accent2)}
+@media(min-width:820px){.hero .wrap{max-width:1040px;grid-template-columns:1.15fr .85fr}}
+.band{position:relative;min-height:340px;display:grid;place-items:center;text-align:center;padding:72px 20px;color:#fff;
+  background:linear-gradient(rgba(12,14,22,.58),rgba(12,14,22,.68)),var(--img) center/cover;border-top:1px solid var(--line)}
+.band p{font-size:clamp(20px,5vw,32px);font-weight:700;line-height:1.7;max-width:20em;text-shadow:0 2px 16px rgba(0,0,0,.6)}
+.band p small{display:block;margin-top:14px;font-size:13px;font-weight:400;letter-spacing:.15em;color:var(--accent2)}
+.cover{margin:-30px -26px 24px;height:210px;overflow:hidden;border-radius:16px 16px 0 0;position:relative}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,var(--card))}
+.story-grid{display:grid;gap:30px;align-items:start}
+.story-photo{border-radius:14px;overflow:hidden}
+.story-photo img{width:100%;display:block;aspect-ratio:3/2;object-fit:cover}
+@media(min-width:820px){.story .wrap{max-width:1000px}.story-grid{grid-template-columns:1.2fr .8fr}.story-photo{position:sticky;top:80px}.story-photo img{aspect-ratio:4/5}}
+.final{background:linear-gradient(rgba(18,20,28,.84),rgba(18,20,28,.9)),url(images/shore-sunset.jpg) center/cover}
+.notice{font-size:12.5px;color:var(--sub);line-height:1.8}
+footer{padding:36px 0 56px;border-top:1px solid var(--line)}
+footer .wrap{display:grid;gap:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">会話の型 ─ note</a>
+    <nav>
+      <a href="#story">体験談</a>
+      <a href="#products">記事</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta-mini" href="#products">記事を見る</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+   <div>
+    <span class="eyebrow">20代男性向け ｜ note有料記事 2本</span>
+    <h1>「いいね」は来るのに、<br>その先に<em>進めない</em>あなたへ。</h1>
+    <p class="lead">20代前半の1年間、出会い系サイトで約40人の女性と会った42歳既婚の男が、メッセージの送り方からデート当日の立ち回りまでを、今のアプリ・LINEでそのまま使える形で書きました。</p>
+    <div class="btns">
+      <a class="btn primary" href="#products">記事をえらぶ</a>
+      <a class="btn ghost" href="#story">なぜ書いたのか</a>
+    </div>
+    <div class="facts">
+      <span>各1,980円(税込)</span>
+      <span>読み切り・サブスクなし</span>
+      <span>すべて実体験ベース</span>
+    </div>
+   </div>
+   <figure class="hero-photo">
+     <img src="images/hero-couple.jpg" alt="夕日を背に寄り添う二人のシルエット" style="object-position:40% center" fetchpriority="high">
+     <figcaption>THE WAY HOME, TOGETHER</figcaption>
+   </figure>
+  </div>
+</section>
+
+<!-- PAIN -->
+<section>
+  <div class="wrap">
+    <h2><small>THIS IS YOU?</small>こんな状態になっていませんか</h2>
+    <ul class="checks">
+      <li>毎日いいねやDMを送っているのに、返信率が低くて心が折れかけている</li>
+      <li>マッチしても、LINEに移ったところで会話が続かず自然消滅する</li>
+      <li>デートの雰囲気は悪くないのに、終電で帰られてしまう</li>
+      <li>勇気を出して誘っても微妙な空気になり、次につながらない</li>
+      <li>「なぜダメだったのか」が自分でも分からないまま、月額課金だけが続いている</li>
+    </ul>
+    <p style="margin-top:28px">ひとつでも当てはまるなら、つまずいているのは才能やスペックではなく、<b>「進め方の型」</b>かもしれません。</p>
+  </div>
+</section>
+
+<!-- BAND -->
+<div class="band" style="--img:url(images/city-dusk.jpg)" role="img" aria-label="夕暮れの高層ビル街">
+  <p>同じところで立ち止まっていた、<br>20代前半の自分に教えたいこと。<small>FROM ME, AT 42</small></p>
+</div>
+
+<!-- STORY -->
+<section class="story" id="story">
+  <div class="wrap">
+   <div class="story-grid">
+    <div>
+    <h2><small>STORY</small>書いている人について</h2>
+    <p>42歳、既婚、子どもあり。妻とは出会って18年になります。特別なイケメンでも高収入でもない、ごく普通の会社員です。</p>
+    <p>ここに書いている「型」を身につけたのは、今のマッチングアプリではありません。20代前半、妻と出会う前に使っていた<b>出会い系サイト</b>です。最初はメールを送っても返ってこず、たまに返ってきても数往復で途切れる。今のあなたと同じ状態でした。</p>
+    <blockquote>変えたのは、才能でもスペックでもない。<br>メッセージの送り方と、会うまでの進め方の「型」だけ。</blockquote>
+    <p>その1年間で実際に会えた女性は約40人。道具はサイトのメールと電話から、今はアプリのメッセージとLINEに変わりましたが、「知らない相手と会話し、距離を縮める」という場面で起きていることは、当時も今も変わりません。同じところでつまずいている人の役に立てばと思い、書きました。</p>
+    <div class="honest">
+      <p><b>先に正直に書いておきます。</b></p>
+      <p>・ これは統計や研究結果ではなく、私個人の体験です。再現を保証するものではありません。</p>
+      <p>・ 私が使っていたのは出会い系サイトで、今のマッチングアプリではありません。今のアプリ向けに言葉を置き換えて書いています。</p>
+      <p>・ 販売を始めたばかりで、購入者の声はまだありません。感想が届き次第、掲載します。</p>
+    </div>
+    </div>
+    <figure class="story-photo"><img src="images/hands-mug.jpg" alt="温かいマグカップを両手で包む手元" loading="lazy"></figure>
+   </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="wrap">
+    <h2><small>LINEUP</small>2本の記事</h2>
+    <p class="sub" style="margin-bottom:30px">悩みの場所に合わせて選べます。どちらもnoteで販売しており、冒頭は無料で読めます。</p>
+
+    <div class="products">
+
+      <article class="product">
+        <div class="cover"><img src="images/cup-window.jpg" alt="" loading="lazy" style="object-position:center 60%"></div>
+        <div class="no">ARTICLE 01 ｜ 出会うまで・初デート編</div>
+        <h3>マッチングアプリで「いいね止まり」を卒業する会話術</h3>
+        <p class="target">こんな人に:マッチ・返信・LINE・初デートのどこかで止まってしまう人</p>
+        <ul>
+          <li>マッチング率が変わるプロフィールの作り方</li>
+          <li>「いいね」を送るときに外してはいけない一言</li>
+          <li>返信率が上がるファーストメッセージの型</li>
+          <li>LINEに移行するタイミングと、電話での会話</li>
+          <li>初デートで沈黙を作らない話題設計、2回目につなげる温度調整</li>
+          <li>実際に使っていた心理学テクニック(全12章)</li>
+        </ul>
+        <div class="price"><strong>¥1,980</strong><span>税込 ／ 全12章</span></div>
+        <a class="btn primary" href="https://note.com/modern_camel2587/n/n5ef61ebeef0d" target="_blank" rel="noopener">noteで記事を読む →</a>
+      </article>
+
+      <article class="product">
+        <div class="cover"><img src="images/embrace.jpg" alt="" loading="lazy" style="object-position:center 35%"></div>
+        <div class="no">ARTICLE 02 ｜ デート中・その先編 <span class="tag">18歳以上向け</span></div>
+        <h3>安西先生、S〇Xがしたいです。</h3>
+        <p class="target">こんな人に:デートの雰囲気は悪くないのに、その先へ進めない人</p>
+        <ul>
+          <li>デート中に警戒心を解いていく会話の順番</li>
+          <li>「体の相性」の話題を自然な会話として持ち出す方法</li>
+          <li>気持ちをはっきり伝えるときの言葉選び</li>
+          <li>デート当日の場所選びと、お酒との付き合い方</li>
+          <li>気まずい空気で終わらせないための注意点(全8章)</li>
+        </ul>
+        <div class="price"><strong>¥1,980</strong><span>税込 ／ 全8章</span></div>
+        <a class="btn primary" href="https://note.com/modern_camel2587/n/n828d14ee6f13" target="_blank" rel="noopener">noteで記事を読む →</a>
+      </article>
+
+    </div>
+    <p class="notice" style="margin-top:22px">※ 価格は今後、販売状況に応じて改定する場合があります。2本は独立した記事で、どちらから読んでも理解できます。</p>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <h2><small>FEATURES</small>この記事の書き方</h2>
+    <ul class="checks" style="--x:0">
+      <li><b>実際の言葉つき。</b>「こうしましょう」だけで終わらず、当時使っていたやり取りを今のアプリ・LINE向けに書き直しています。</li>
+      <li><b>心理学は2つに絞って具体的に。</b>ダブルバインドとフット・イン・ザ・ドアを、どんな場面でどう使ったかまで解説。</li>
+      <li><b>失敗パターンもQ&Aで。</b>つまずきやすいところを先回りして書いています。</li>
+      <li><b>誇張しません。</b>盛った数字や、再現を約束する表現は使っていません。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- HOW -->
+<section>
+  <div class="wrap">
+    <h2><small>HOW TO BUY</small>購入から読むまで</h2>
+    <ol class="steps">
+      <li><b>気になる記事をタップ</b>上のボタンから、noteの記事ページへ移動します。</li>
+      <li><b>冒頭の無料部分を読む</b>文章の雰囲気が合うか、購入前に確かめられます。</li>
+      <li><b>購入して続きを読む</b>noteのアカウントで購入。支払いはnoteの画面上で完結します。</li>
+    </ol>
+  </div>
+</section>
+
+<!-- AUTHOR -->
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <h2><small>ABOUT</small>著者プロフィール</h2>
+    <div class="author">
+      <dl>
+        <dt>属性</dt><dd>42歳 / 既婚 / 子どもあり / 会社員</dd>
+        <dt>体験</dt><dd>20代前半の1年間、出会い系サイトで約40人の女性と会う</dd>
+        <dt>立場</dt><dd>「20代の頃の自分に教えたいこと」を書いています</dd>
+        <dt>発信</dt><dd>X:<a href="https://x.com/deai1matching" target="_blank" rel="noopener" style="color:var(--accent2)">@deai1matching</a> ／ note:<a href="https://note.com/modern_camel2587" target="_blank" rel="noopener" style="color:var(--accent2)">modern_camel2587</a></dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <h2><small>FAQ</small>よくある質問</h2>
+    <details><summary>どちらから読めばいいですか?</summary><p>マッチや返信、初デートで止まっている方は01、デートまでは行けるのに先へ進めない方は02がおすすめです。2本とも独立しているので、片方だけでも読めます。</p></details>
+    <details><summary>今のマッチングアプリでも使えますか?</summary><p>体験の場は出会い系サイトでしたが、「知らない相手と文章で距離を縮め、会って関係を深める」流れは共通です。記事では今のアプリ・LINE向けに言葉を置き換えて書いています。</p></details>
+    <details><summary>必ず結果が出ますか?</summary><p>保証はできません。あくまで私個人の実体験をまとめたものです。相手や状況によって結果は変わります。</p></details>
+    <details><summary>支払い方法は?</summary><p>noteの購入画面で選べる方法(クレジットカード、キャリア決済など)に準じます。詳しくはnoteのヘルプをご確認ください。</p></details>
+    <details><summary>返金はできますか?</summary><p>デジタルコンテンツのため、購入後の返金はnoteの規約に準じます。購入前に無料部分をご確認ください。</p></details>
+    <details><summary>相手を操る方法ですか?</summary><p>いいえ。相手の気持ちを無視した方法は扱っていません。警戒心を解き、お互いが納得したうえで関係が進むための会話の進め方を書いています。</p></details>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <div class="wrap">
+    <h2>今の延長線上と、<br>違う夜にするために。</h2>
+    <p class="sub">まずは冒頭の無料部分から、読んでみてください。</p>
+    <div class="btns">
+      <a class="btn primary" href="https://note.com/modern_camel2587/n/n5ef61ebeef0d" target="_blank" rel="noopener">01 いいね止まりを卒業</a>
+      <a class="btn ghost" href="https://note.com/modern_camel2587/n/n828d14ee6f13" target="_blank" rel="noopener">02 その先へ進む(18歳以上)</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="notice">本ページおよび記事の内容は、筆者個人の体験に基づくものです。効果・結果を保証するものではありません。記事には性に関する記述が含まれるため、18歳未満の方はご利用いただけません。法令・各サービスの利用規約・相手の意思を尊重してご活用ください。</p>
+    <p class="notice">© 会話の型</p>
+  </div>
+</footer>
+
+</body>
+</html>
