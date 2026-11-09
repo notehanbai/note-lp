@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notehanbai.github.io/note-lp/sitemap.xml
